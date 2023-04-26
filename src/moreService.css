@@ -1,0 +1,51 @@
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 20px 50px 30px;
+} 
+.serv-cont{
+    /* background-color:rgba(167, 162, 97, 0.893); */
+}
+
+.our-ser{
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 30px;
+    margin: 40px 0 40px;
+}
+.cards{
+    max-width: 250px;
+    height: 390px;
+   box-shadow:var(--shadow);
+}
+
+.card{
+max-width:250px;
+height: 200px;
+}
+.pic{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+.heading{
+    text-align: center;
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 10px;
+}
+
+.card-btn{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.grid{
+    display: grid;
+    gap: 30px;
+}
+.grid-three-column{
+    grid-template-columns: repeat(3, 1fr);
+}

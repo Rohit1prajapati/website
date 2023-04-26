@@ -1,0 +1,49 @@
+.select-ttb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: s;
+}
+
+
+.toptobottom {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    color: white;
+    font-size: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    bottom: 5rem;
+    cursor: pointer;
+    right: 11.5rem;
+    background-color: var(--btn);
+}
+
+.ttb {
+    font-size: 40px;
+
+    animation: ttbEffect 2s infinite alternate-reverse;
+}
+
+@keyframes ttbEffect {
+    from {
+        transform: translateY(10px);
+    }
+
+    to {
+        transform: translateY(-10px);
+    }
+}
+
+
+@media (max-width:768px) {
+    .toptobottom{
+        left: 10%;
+        right: 0;
+    }
+    
+
+}

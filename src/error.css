@@ -1,0 +1,13 @@
+.img{
+    width: 45%;
+    margin-top:50px;
+    animation: anime 1s linear infinite alternate-reverse;
+}
+@keyframes anime{
+    from{
+        transform: translateY(30px);
+    }
+    to{
+        transform: translateY(-30px);
+    }
+}

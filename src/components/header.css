@@ -1,0 +1,33 @@
+@import '../assets//style.css';
+header{
+    width: 80%;
+    height: 100px;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto 0;
+}
+.logo{
+    margin: 0 10px; 
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+header h1{
+    color:white;
+    background: black;
+    border-radius: 4px;
+    height: 28px;
+    font-size: 25px;
+   
+}
+header h1 span{
+    
+    color: white
+}
+
+.logo :hover,header h1:active{
+    color:var(--hover-color)
+}
